@@ -1,0 +1,20 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Xf86-Video-Vmware",
+  "version": "13.3.0",
+  "architectures": ["x86_64"],
+  "description": "VMware guest video driver for the Xorg X server",
+  "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-video-vmware",
+  "downloadLinks": ["https://www.x.org/pub/individual/driver/xf86-video-vmware-13.3.0.tar.bz2"],
+  "md5sums": ["08d66d062055080ff699ab4869726ea2"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Server",
+      "version": "1.20.13",
+      "options": []
+    }
+  ],
+  "options": []
+}

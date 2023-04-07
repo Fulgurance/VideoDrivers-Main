@@ -1,0 +1,20 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Xf86-Video-Nouveau",
+  "version": "1.0.17",
+  "architectures": ["x86_64"],
+  "description": "X.org xf86-video-nouveau driver",
+  "website": "https://github.com/freedesktop/xf86-video-nouveau",
+  "downloadLinks": ["https://www.x.org/pub/individual/driver/xf86-video-nouveau-1.0.17.tar.bz2"],
+  "md5sums": ["b08633be9af9ee819077c278dfc55648"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Server",
+      "version": "1.20.13",
+      "options": []
+    }
+  ],
+  "options": []
+}

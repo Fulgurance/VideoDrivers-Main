@@ -1,0 +1,25 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Xf86-Video-Intel",
+  "version": "0.0.0-+20210222",
+  "architectures": ["x86_64"],
+  "description": "Open-source Xorg graphics driver for Intel graphics",
+  "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-video-intel",
+  "downloadLinks": ["https://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20210222.tar.xz"],
+  "md5sums": ["8795a5d17ece4dea4763e61be7805882"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xcb-Util",
+      "version": "0.4.0",
+      "options": []
+    },
+    {
+      "name": "Xorg-Server",
+      "version": "1.20.13",
+      "options": []
+    }
+  ],
+  "options": []
+}

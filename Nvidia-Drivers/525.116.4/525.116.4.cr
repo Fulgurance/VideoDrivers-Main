@@ -11,6 +11,12 @@ class Target < ISM::Software
             prepareOpenrcServiceInstallation("#{workDirectoryPath(false)}/Nvidia-Persistenced-Init.d","nvidia-persistenced")
         end
 
+        if !option("Nvidia-Settings")
+            deleteFile("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/bin/nvidia-settings")
+            deleteFile("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/applications/nvidia-settings.desktop")
+            deleteFile("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/pixmaps/nvidia-settings.png")
+        end
+
     end
 
 end

@@ -25,6 +25,12 @@
           "options": []
         }
       ]
+    },
+    {
+      "name": "Nvidia-Settings",
+      "description": "Enable nvidia-settings support",
+      "active": false,
+      "dependencies": []
     }
   ]
 }

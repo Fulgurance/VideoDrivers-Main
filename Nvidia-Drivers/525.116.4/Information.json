@@ -1,0 +1,17 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Nvidia-Drivers",
+  "version": "525.116.4",
+  "architectures": ["x86_64"],
+  "description": "Linux display driver for NVIDIA",
+  "website": "https://www.nvidia.com/en-gb/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "options": []
+}

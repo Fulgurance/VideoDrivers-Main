@@ -13,6 +13,6 @@
       "options": ["Glamor"]
     }
   ],
-  "kernelDependencies": [],
+  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_RADEON"],
   "options": []
 }

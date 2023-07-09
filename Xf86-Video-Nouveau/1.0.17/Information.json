@@ -13,6 +13,6 @@
       "options": []
     }
   ],
-  "kernelDependencies": [],
+  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_NOUVEAU","CONFIG_DRM_NOUVEAU_BACKLIGHT"],
   "options": []
 }

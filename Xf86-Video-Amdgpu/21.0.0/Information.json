@@ -13,6 +13,6 @@
       "options": ["Glamor"]
     }
   ],
-  "kernelDependencies": [],
+  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_AMDGPU","CONFIG_DRM_AMDGPU_SI","CONFIG_DRM_AMDGPU_CIK"],
   "options": []
 }

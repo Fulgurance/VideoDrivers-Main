@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Vmware",
   "version": "13.3.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "VMware guest video driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-video-vmware",
   "installedFiles": [],
@@ -13,6 +15,10 @@
       "options": []
     }
   ],
-  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_VMWGFX","CONFIG_DRM_VMWGFX_FBCON"],
+  "kernelDependencies": [
+    "CONFIG_DRM",
+    "CONFIG_DRM_VMWGFX",
+    "CONFIG_DRM_VMWGFX_FBCON"
+  ],
   "options": []
 }

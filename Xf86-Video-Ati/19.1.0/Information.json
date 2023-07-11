@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Ati",
   "version": "21.0.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "ATI/AMD Radeon video driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-video-ati",
   "installedFiles": [],
@@ -10,9 +12,14 @@
     {
       "name": "Xorg-Server",
       "version": "1.20.13",
-      "options": ["Glamor"]
+      "options": [
+        "Glamor"
+      ]
     }
   ],
-  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_RADEON"],
+  "kernelDependencies": [
+    "CONFIG_DRM",
+    "CONFIG_DRM_RADEON"
+  ],
   "options": []
 }

@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Intel",
   "version": "0.0.0-+20210222",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Open-source Xorg graphics driver for Intel graphics",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-video-intel",
   "installedFiles": [],
@@ -18,6 +20,9 @@
       "options": []
     }
   ],
-  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_I915"],
+  "kernelDependencies": [
+    "CONFIG_DRM",
+    "CONFIG_DRM_I915"
+  ],
   "options": []
 }

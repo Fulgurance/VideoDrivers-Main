@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Fbdev",
   "version": "0.5.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X.org xf86-video-fbdev driver",
   "website": "https://github.com/freedesktop/xf86-video-fbdev",
   "installedFiles": [],

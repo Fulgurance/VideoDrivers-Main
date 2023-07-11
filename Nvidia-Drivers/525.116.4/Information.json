@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Nvidia-Drivers",
   "version": "525.116.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Linux display driver for NVIDIA",
   "website": "https://www.nvidia.com/en-gb/",
   "installedFiles": [],
@@ -25,13 +27,15 @@
           "version": "0.46.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Nvidia-Settings",
       "description": "Enable nvidia-settings support",
       "active": false,
-      "dependencies": []
+      "dependencies": [],
+      "kernelDependencies": []
     }
   ]
 }

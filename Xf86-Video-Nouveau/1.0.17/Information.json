@@ -2,7 +2,9 @@
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Nouveau",
   "version": "1.0.17",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X.org xf86-video-nouveau driver",
   "website": "https://github.com/freedesktop/xf86-video-nouveau",
   "installedFiles": [],
@@ -13,6 +15,10 @@
       "options": []
     }
   ],
-  "kernelDependencies": ["CONFIG_DRM","CONFIG_DRM_NOUVEAU","CONFIG_DRM_NOUVEAU_BACKLIGHT"],
+  "kernelDependencies": [
+    "CONFIG_DRM",
+    "CONFIG_DRM_NOUVEAU",
+    "CONFIG_DRM_NOUVEAU_BACKLIGHT"
+  ],
   "options": []
 }

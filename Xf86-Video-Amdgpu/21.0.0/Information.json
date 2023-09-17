@@ -23,5 +23,6 @@
     "CONFIG_DRM_AMDGPU_SI",
     "CONFIG_DRM_AMDGPU_CIK"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }

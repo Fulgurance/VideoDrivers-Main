@@ -20,5 +20,6 @@
     "CONFIG_DRM_VMWGFX",
     "CONFIG_DRM_VMWGFX_FBCON"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }

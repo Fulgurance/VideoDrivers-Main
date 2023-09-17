@@ -24,5 +24,6 @@
     "CONFIG_DRM",
     "CONFIG_DRM_I915"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }

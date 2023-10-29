@@ -1,7 +1,7 @@
 {
   "port": "VideoDrivers-Main",
   "name": "Xf86-Video-Intel",
-  "version": "0.0.0-+20210222",
+  "version": "0.0.0-20210222",
   "architectures": [
     "x86_64"
   ],

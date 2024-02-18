@@ -24,5 +24,6 @@
     "CONFIG_DRM_AMDGPU_CIK"
   ],
   "options": [],
+  "uniqueDependencies": [],
   "uniqueOptions": []
 }

@@ -21,5 +21,6 @@
     "CONFIG_DRM_NOUVEAU_BACKLIGHT"
   ],
   "options": [],
+  "uniqueDependencies": [],
   "uniqueOptions": []
 }

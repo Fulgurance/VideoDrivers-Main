@@ -22,5 +22,6 @@
     "CONFIG_DRM_RADEON"
   ],
   "options": [],
+  "uniqueDependencies": [],
   "uniqueOptions": []
 }

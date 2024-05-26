@@ -2,16 +2,15 @@
   "port": "VideoDrivers-Main",
   "name": "Nvidia-Drivers",
   "version": "535.129.3",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Linux display driver for NVIDIA",
   "website": "https://www.nvidia.com/en-gb/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": true,
       "dependencies": [
         {
+          "port": "InitSystems-Main",
           "name": "Openrc",
-          "version": "0.52.1",
+          "version": ">=0.52.1",
           "options": []
         }
       ],

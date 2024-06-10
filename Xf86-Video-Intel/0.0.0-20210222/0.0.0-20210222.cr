@@ -24,7 +24,7 @@ class Target < ISM::Software
 
         makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
 
-        fileReplaceText("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/man/man1/intel-virtual-output.1",".TH intel-virtual-output  4",".TH intel-virtual-output  1")
+        fileReplaceText("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/man/man1/intel-virtual-output.1",".TH intel-virtual-output  4",".TH intel-virtual-output  1")
     end
 
 end

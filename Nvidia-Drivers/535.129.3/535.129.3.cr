@@ -4,11 +4,13 @@ class Target < ISM::Software
         super
 
         ["etc","lib","usr"].each do |directory|
-            moveFile("#{buildDirectoryPath}#{directory}","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}#{directory}")
+            moveFile(   "#{buildDirectoryPath}#{directory}",
+                        "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}#{directory}")
         end
 
         if option("Openrc")
-            prepareOpenrcServiceInstallation("#{workDirectoryPath}/Nvidia-Persistenced-Init.d","nvidia-persistenced")
+            prepareOpenrcServiceInstallation(   path:  "#{workDirectoryPath}/Nvidia-Persistenced-Init.d",
+                                                name:   "nvidia-persistenced")
         end
 
         if !option("Nvidia-Settings")

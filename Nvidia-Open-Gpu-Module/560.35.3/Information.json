@@ -1,0 +1,23 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Nvidia-Drivers",
+  "version": "560.35.3",
+  "architectures": ["x86_64"],
+  "description": "NVIDIA Linux open GPU kernel module source",
+  "website": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

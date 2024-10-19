@@ -1,6 +1,6 @@
 {
   "port": "VideoDrivers-Main",
-  "name": "Nvidia-Drivers",
+  "name": "Nvidia-Open-Gpu-Module",
   "version": "560.35.3",
   "architectures": ["x86_64"],
   "description": "NVIDIA Linux open GPU kernel module source",

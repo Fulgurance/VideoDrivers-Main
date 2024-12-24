@@ -1,0 +1,38 @@
+{
+  "port": "VideoDrivers-Main",
+  "name": "Nvidia-Drivers",
+  "version": "565.77.0",
+  "architectures": ["x86_64"],
+  "description": "NVIDIA Accelerated Graphics Driver",
+  "website": "http://www.nvidia.com/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [
+    {
+      "name": "Settings",
+      "description": "Enable settings support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    },
+    {
+      "name": "32Bits",
+      "description": "Enable 32bits support",
+      "active": false,
+      "dependencies": [],
+      "kernelDependencies": []
+    }
+  ],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

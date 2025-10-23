@@ -1,0 +1,31 @@
+PORT
+    VideoDrivers-Main
+NAME
+    Nvidia-Drivers
+VERSION
+    565.77.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    NVIDIA Accelerated Graphics Driver
+WEBSITE
+    http://www.nvidia.com/
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Settings
+    description: Enable settings support
+    active: false
+    dependencies:
+    kernelDependencies:
+
+    name: 32Bits
+    description: Enable 32 bits support
+    active: false
+    dependencies:
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

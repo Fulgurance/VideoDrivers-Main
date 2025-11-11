@@ -11,7 +11,9 @@ DESCRIPTION
 WEBSITE
     http://www.nvidia.com/
 DEPENDENCIES
-        @SystemBase-Main:SystemBase>=0.2.0
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+        @GraphicsLibraries-Main:Libglvnd>=1.7.0
+        @XorgBase-Main:Xorg-Libraries>=21.1.14
 KERNELDEPENDENCIES
 OPTIONS
     name: Settings

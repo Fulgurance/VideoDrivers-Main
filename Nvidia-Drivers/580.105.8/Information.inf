@@ -3,7 +3,7 @@ PORT
 NAME
     Nvidia-Drivers
 VERSION
-    565.77.0
+    580.105.8
 ARCHITECTURES
     x86_64
 DESCRIPTION
@@ -13,9 +13,15 @@ WEBSITE
 DEPENDENCIES
         @GraphicsLibraries-Main:Mesa>=23.1.6
         @GraphicsLibraries-Main:Libglvnd>=1.7.0
-        @XorgBase-Main:Xorg-Libraries>=21.1.14
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
 KERNELDEPENDENCIES
 OPTIONS
+    name: Kernel-Open
+    description: Enable open-source kernel modules instead of the proprietary ones
+    active: false
+    dependencies:
+    kernelDependencies:
+
     name: Settings
     description: Enable settings support
     active: false
